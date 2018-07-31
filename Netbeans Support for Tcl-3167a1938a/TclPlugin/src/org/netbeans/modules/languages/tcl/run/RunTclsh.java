@@ -217,7 +217,11 @@ class InternalsOfOutputWindowWithProcess implements Runnable {
 				processIn.println( "set ::tcl_interactive 1" );
 				processIn.println( "puts \"set ::tcl_interactive 1\"" );
 				if( tclFilePath != null ) {
-					processIn.println( "cd "+TclProject.getDirectoryFromPath( tclFilePath) );
+                                        String dirPath = TclProject.getDirectoryFromPath( tclFilePath);
+                                        if (dirPath.endsWith("\\") && !dirPath.endsWith("\\\\")) {
+                                            dirPath = dirPath + "\\";
+                                        }
+					processIn.println( "cd " + dirPath);
 					processIn.println( "source \"" + tclFilePath + "\"; exit" );
 				}
 				processIn.flush();
