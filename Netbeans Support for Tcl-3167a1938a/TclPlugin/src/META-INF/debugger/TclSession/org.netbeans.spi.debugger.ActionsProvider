@@ -1,0 +1,2 @@
+org.netbeans.modules.languages.tcl.debugger.TclDebuggerActionsProvider
+org.netbeans.modules.languages.tcl.debugger.watches.TclNewWatchActionProvider

@@ -1,0 +1,4 @@
+org.netbeans.modules.debugger.ui.models.ColumnModels.createCallStackLocationColumn()-hidden
+org.netbeans.modules.languages.tcl.debugger.callstack.TclCallStackModelColumnCmdStr
+org.netbeans.modules.languages.tcl.debugger.callstack.TclCallStackModelColumnFileNameAndLineNumber
+org.netbeans.modules.languages.tcl.debugger.callstack.TclCallStackModelColumnLevel

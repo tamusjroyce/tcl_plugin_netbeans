@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <!-- NOTE: Default use doesn't require to edit -->
+ 
+    <fontcolor name="default" foreColor="black" default="default"/>
+    <fontcolor name="identifier" foreColor="black" default="identifier"/>    
+    <fontcolor name="operator" foreColor="444444" default="operator"/>    
+    <fontcolor name="brace" foreColor="333333"/>    
+    <fontcolor name="escape-sequence" foreColor="225588"/>    
+
+	<!-- ocean blue string…-->
+    <fontcolor name="string" foreColor="1C6BA0" default="operator"/>    
+    
+    <fontcolor name="tcl-command" foreColor="225588">
+    	<font style="bold"/>
+    </fontcolor>
+    <fontcolor name="tk-command" foreColor="336699">
+    	<font style="bold"/>
+    </fontcolor>
+    <fontcolor name="itcl-command" foreColor="447711">
+    	<font style="bold"/>
+    </fontcolor>
+    
+    <fontcolor name="variable" foreColor="red" default="variable"/> 
+    <fontcolor name="namespace" foreColor="00a900" default="namespace"/> 
+    <fontcolor name="number" foreColor="blue" default="number"/>    
+    
+    <fontcolor name="comment" default="comment"/>    
+ 
+</fontscolors>
